@@ -864,20 +864,8 @@ font-weight: 400;
     fill: var(--accent-color-btn);
         
 }
-
-/* .check-text::before{
-    content: "";
-    width: 16px;
-    height: 16px;
-    border: 1.25px solid #2E2F42;
-    border-radius: 2px;
-    display: block;
-    margin-right: 7px;
+/* ========модальне вікно для телефонів======= */
+/* стилі для мобільних телефонів */
+@media screen {
+    
 }
-.input-check:checked + .check-text::before{
-    border: none;
-    background-color:var(--accent-color-btn);
-    background-image: url(../images/svg/Vector\ \(1\).svg);
-    background-repeat: no-repeat;
-    background-position: center;
-} */
