@@ -25,6 +25,9 @@ ul {
 }
 img {
     display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
 }
 body{
     font-family:var(--primary-font-family);
@@ -52,15 +55,15 @@ body{
     line-height: 1.1;
 }
 .container{
-    width: 1158px;
+    /* width: 1158px; */
     /* outline: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .section{
-    padding-bottom: 120px;
+    padding-bottom: 96px;
 }
 /*====оформлення хедера для студіо та портфоліо======*/
 .header-page{
@@ -70,10 +73,7 @@ body{
 .header-page .link {
     color: var(--accent-text-color);
 }
-/* .header-page .link:hover,
-.header-page .link:focus {
-    color:var(--accent-color);
-} */
+
 .header-navigation {
     display: flex;
     align-items: center;
@@ -193,10 +193,11 @@ body{
 
 /* оформлення мейна секція один */
 .hero {
-    /* background-color:var(--accent-text-color); */
+   
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)), url(../images/img/hero.jpg);
 
+    
     background-size: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,34 +244,42 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 } 
 /* оформлення мейна секція два */
-.direction {
-    padding-top: 120px;}
+/* .direction {} */
 
 .direction-title {
     margin-bottom: 8px; 
 }
 .direction-list {
-    display: flex;
+    /* display: flex; */
+   
 } 
 .direction-item {
-    margin-right: 24px;
+    /* margin-right: 24px; */
+    row-gap: 72px;
 }
-.direction-item:last-child{
+/* .direction-item:last-child{
     margin-right: 0px;
-}
+} */
 .direction-direction {
     color: var(--accent-text-color);
     margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-direction{
+    display: none;
 }
 .direction-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    margin-bottom: 72px;
 } 
-.direction-section{
+/* .direction-section{
     content: '';
     height: 112px;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
@@ -278,12 +287,11 @@ body{
     background-position: center;
     border-radius: 4px;
     padding: 24px 100px;
-        margin-bottom: 8px;
-}
+    margin-bottom: 8px;
+} */
 
 /* оформлення мейна секція три */
-/* .work {
-} */
+
 .work-title {
     text-align: center;
     padding-bottom: 120x;
@@ -296,10 +304,7 @@ body{
 .work-item {
     margin-right: 24px;
  }
-/* .work-images {
-} 
-/* .persone-item {
-} */
+
 /* оформлення мейна секція чотири*/
 .tem {
     background-color:var(--accent-background-color);
@@ -501,10 +506,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-be
     margin-left: 80px;
 }
 
-/* .subscribe-modal {}
-
-.subscribe-label {} */
-
 .subscribe-wrap {
     display: flex;
     justify-content: center;
@@ -559,8 +560,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-be
 
 /* =============оформлення портфоліо=================== */
 /* оформлення мейна */
-/* .main-porfolio {
-} */
 /* офрмлення секції один */
  .portfolio {
     padding-top: 96px;
@@ -600,10 +599,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-be
 }
 
 /* оформлення секції два */
-/* .product {
-} */
+
 .product-item{
-    /* margin-bottom: 48px; */
+    
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .product-item:hover,
@@ -640,8 +638,7 @@ overflow: hidden;
     column-gap: 24px;
     row-gap: 48px;
 }
-/* .product-images {
-} */
+
 .product-decscription {
     font-weight: 500px;
     font-size: 20px;
@@ -655,9 +652,7 @@ overflow: hidden;
     font-weight: 400;
     margin-left: 16px;
 }
-/* .text-img{
-    border: 1px solid #E7E9FC;
-} */
+
 .text-img{
     padding: 32px 0 32px 0;
     border-left: 1px solid #E7E9FC;
@@ -791,7 +786,7 @@ margin-bottom: 8px;
     line-height: 1.33;
     letter-spacing: 0.04em;
     color: var(--accent-text-color);
-    /* color: rgba(117, 117, 117, 0.5); */
+    
 }
 
 .modal-comment:focus {
@@ -863,9 +858,4 @@ font-weight: 400;
     background-color: var(--accent-color-btn);
     fill: var(--accent-color-btn);
         
-}
-/* ========модальне вікно для телефонів======= */
-/* стилі для мобільних телефонів */
-@media screen {
-    
 }
