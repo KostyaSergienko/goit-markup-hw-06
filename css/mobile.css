@@ -1,0 +1,84 @@
+
+@media screen and (min-width: 320px) {
+    .container {
+        max-width: 458px;
+        width: 100%;
+    }
+    .header-page>.container {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-lists, .header-info {
+        display:none;
+    }
+         .heder-burger {
+            border: none;
+            background-color: transparent;
+            
+         }
+/*=========================HERO =====================*/
+    .hero {
+        
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/img/people_office_mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding-top: 112px;
+        padding-bottom: 112px;
+
+    }
+    .hero-title {
+        font-size: 36px;
+        line-height: 1.1;
+        max-width: 320px;
+        margin-bottom: 72px;
+    }
+/* ==========================SECTIO TWO================ */
+    .direction {
+        padding: 96px 0;
+    }
+    .direction-section{
+        display: none;
+    }
+    .direction-list {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+    }
+    .direction-direction {
+    text-align: center;
+    }
+    .work{
+        display: none;
+    }
+/* ===========================SECTION FOUR============= */
+    .tem{
+        padding-top: 96px;
+        padding-bottom: 128px;
+    }
+/* ===========================SECTION FIVE============= */
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    .customers-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        row-gap: 72px;
+        column-gap: 16px;
+    }
+    .customers-item {
+        width: 190px;
+    }
+
+/* ===========================FOOETR============= */
+    .footer-cont {
+        flex-direction: column;
+    }
+    .subscribe-wrap{
+        flex-direction: column;
+    }
+
+}

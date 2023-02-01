@@ -1,0 +1,115 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        width: 100%;
+    }
+    .header-lists,
+    .header-info {
+        display: flex;
+    }
+    .heder-burger{
+        display: none;
+    }
+        .header-navigation {
+            display: flex;
+            align-items: center;
+    
+        }
+        .header-lists {
+            display: flex;
+            gap: 40px;
+            padding-top: 24px;
+            padding-bottom: 24px;
+        }
+    
+        .header-list-item {
+            position: relative;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            color: var(--accent-text-color);
+            letter-spacing: 0.02em;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+        .header-list-item:hover:after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background-color: var(--accent-color);
+            left: 0;
+            bottom: -3.5px;
+            border-radius: 2px;
+        }
+    
+        .active::after {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 4px;
+            background-color: var(--accent-color);
+            left: 0;
+            bottom: -3.5px;
+            border-radius: 2px;
+    
+        }
+    
+        .header-list-item.active {
+            color: var(--accent-color);
+        }
+    
+        .header-list-item:hover,
+        .header-list-item:focus {
+            color: var(--accent-color);
+        }
+    
+    
+        .header-info {
+            flex-direction: column;
+            display: flex;
+            gap: 4px;
+        }
+    
+        .header-mailto, .header-telefone{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.5;
+            color: var(--primary-text-color);
+            letter-spacing: 0.02em;
+            
+            transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    
+    
+    /*=========================HERO =====================*/
+    /* ==========================SECTIO TWO================ */
+        .direction-list{
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap:72px 24px;
+        }
+        .direction-item{
+
+            width: 356px;
+        }
+/* ===========================FOOETR============= */
+.footer-cont {
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.footer-subscribe {
+   flex: 1;
+}
+.subscribe-modal {
+    display: flex;
+   
+}
+.subscribe-wrap {
+   flex-direction: row;
+
+}
+}

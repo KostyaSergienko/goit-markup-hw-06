@@ -1,0 +1,58 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+        width: 100%;
+    }
+.header-page>.container {
+justify-content: flex-start;
+gap: 76px;
+}
+.header-info {
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 40px;}
+/* ==========================SECTIO TWO================ */
+        .direction-list {
+            gap: 24px;
+        }
+    
+        .direction-item {
+    
+            width: 264px;
+        }
+        .direction-section {
+        display: block;
+        }
+                .direction-section {
+                    content: '';
+                    height: 112px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-repeat: no-repeat;
+                    background-color: var(--accent-background-color);
+                    background-position: center;
+                    border-radius: 4px;
+                    padding: 24px 100px;
+                    margin-bottom: 8px;
+                }
+/* ===========================SECTION FIVE============= */
+  .customers {
+      padding-top: 96px;
+      padding-bottom: 96px;
+  }
+
+  .customers-list {
+     
+      column-gap: 24px;
+  }
+
+  .customers-item {
+      width: 168px;
+  }
+
+  .footer-subscribe{
+    margin-left: 80px;
+  }
+}
