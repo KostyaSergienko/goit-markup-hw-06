@@ -41,10 +41,10 @@
                 <a href="mailto:info@devstudio.com" class="header-mailto link">info@devstudio.com</a>
                 <a href="tel:+110001111111" class="header-telefone link">+11 (000) 111-11-11</a>
             </div>
-            <button class="heder-burger " data-menu-open>
+            <button type="button" class="heder-burger " data-menu-open>
             
                 <svg class="icon-burger" width="32" height="22">
-                    <use href="./images/icons.svg#icon-hamburger"></use>
+                    <use href="./images/icons.svg#icon-burger"></use>
                 </svg>
             
             </button>
@@ -123,13 +123,13 @@
                 <h2 class="work-title modal">What are we doing</h2>
                 <ul class="work-list list">
                     <li class="work-item link">
-                        <img src="./images/img1.jpg" class="work-images" alt="computer" width="360" height="300">
+                        <img srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x" src="./images/img1.jpg" class="work-images" alt="computer" width="360" height="300">
                     </li>
                     <li class="work-item link">
-                        <img src="./images/img2.jpg" class="work-images" alt="telefone" width="360" height="300">
+                        <img srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x" src="./images/img2.jpg" class="work-images" alt="telefone" width="360" height="300">
                     </li>
                     <li class="work-item link">
-                        <img src="./images/img3.jpg" class="work-images" alt="telefone" width="360" height="300">
+                        <img srcset="./images/img2.jpg 1x, ./images/img3-2x.jpg 2x" src="./images/img3.jpg" class="work-images" alt="telefone" width="360" height="300">
                     </li>
                 </ul>
             </div>
@@ -140,7 +140,7 @@
                 <h2 class="team-title modal">Our Team</h2>
                 <ul class="team-man list">
                     <li class="team-list link">
-                        <img src="./images/team/team1.jpg" class="team-images" alt="men" width="264" height="260">
+                        <img srcset="./images/team/team1.jpg 1x, ./images/team/team1-2x.jpg 2x" src="./images/team/team1.jpg" class="team-images" alt="men" width="264" height="260">
                         <h3 class="team-name title">Mark Guerrero</h3>
                         <p class="team-text">Product Designer</p>
                         <ul class="tem-soc-listm list">
@@ -178,7 +178,7 @@
                         </ul>
                     </li>
                     <li class="team-list link">
-                        <img src="./images/team/team2.jpg" class="team-images" alt="men" width="264" height="260">
+                        <img srcset="./images/team/team2.jpg 1x, ./images/team/team2-2x.jpg 2x" src="./images/team/team2.jpg" class="team-images" alt="men" width="264" height="260">
                         <h3 class="team-name title">Tom Ford</h3>
                         <p class="team-text">Frontend Developer</p>
                         <ul class="tem-soc-listm list">
@@ -216,7 +216,7 @@
                         </ul>
                     </li>
                     <li class="team-list link">
-                        <img src="./images/team/team3.jpg" class="team-images" alt="women" width="264" height="260">
+                        <img srcset="./images/team/team3.jpg 1x, ./images/team/team3-2x.jpg 2x" src="./images/team/team3.jpg" class="team-images" alt="women" width="264" height="260">
                         <h3 class="team-name title">Camila Garcia</h3>
                         <p class="team-text">Marketing</p>
                         <ul class="tem-soc-listm list">
@@ -254,7 +254,7 @@
                         </ul>
                     </li>
                     <li class="team-list link">
-                        <img src="./images/team/team4.jpg" class="team-images" alt="men" width="264" height="260">
+                        <img srcset="./images/team/team4.jpg 1x, ./images/team/team4-2x.jpg 2x" src="./images/team/team4.jpg" class="team-images" alt="men" width="264" height="260">
                         <h3 class="team-name title">Daniel Wilson</h3>
                         <p class="team-text">UI Designer</p>
                         <ul class="tem-soc-listm list">
@@ -482,12 +482,56 @@
    <!--  mobile-meny -->
     <div class="mobile-modal is-hidden"  data-menu>
         <div class="mobile-meny">
-            <button type="button" class="modality-close" data-menu-close>
+            <button type="button" class="mobile-close" data-menu-close>
                 <svg class="modality-close-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <ul class="mobail-list list">
+                <li><a class="mobail-item link" href="./index.html">Studio</a></li>
+                <li><a class="mobail-item link" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="mobail-item link" href="">Contacts</a></li>
+            </ul>
+            <div class="mobail-info">
+                <a href="tel:+110001111111" class="mobail-tel link">+11 (000) 111-11-11</a>
+                <a href="mailto:info@devstudio.com" class="mobail-mail link">info@devstudio.com</a>
+                
             
+        <ul class="mobail-soc-listm list">
+            <li class="mobail-soc-item link">
+                <a href="" class="mobail-soc-link">
+                    <svg class="mobail-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobail-soc-item link">
+                <a href="" class="mobail-soc-link">
+                    <svg class="mobail-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+        
+                </a>
+            </li>
+            <li class="mobail-soc-item link">
+                <a href="" class="mobail-soc-link">
+                    <svg class="mobail-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+        
+                </a>
+            </li>
+            <li class="mobail-soc-item link">
+                <a href="" class="mobail-soc-link">
+                    <svg class="mobail-soc-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+        
+                </a>
+            </li>
+        </ul>
+    </div>
+
         </div>
     </div>
     <script>
