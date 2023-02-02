@@ -92,7 +92,6 @@ body.body-hidden{
     align-items: flex-start;
     padding: 0px;
     flex: none;
-    /* margin-right: 76px; */
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -118,6 +117,7 @@ body.body-hidden{
  .header-telefone:focus {
      color: var(--accent-color);
  }
+
 /*=========================HERO =====================*/
 .hero-title {
     font-weight: 700;
@@ -158,6 +158,7 @@ body.body-hidden{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* ==========================SECTIO TWO================ */
+
 
 /* ===========================SECTION FOUR============= */
 .tem {
@@ -204,6 +205,8 @@ body.body-hidden{
 }
 
 .team-text {
+    font-size: 16px;
+    line-height: 1.5;
     font-weight: 400;
     margin-bottom: 8px;
 }
@@ -351,7 +354,7 @@ body.body-hidden{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 120px;
+    /* margin-left: 120px; */
 }
 
 .footer-soc-text {
@@ -362,7 +365,14 @@ body.body-hidden{
     color: var(--primary-background-color);
     margin-bottom: 16px;
 }
-
+.footer-soc-subscribe{
+    display: flex;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--primary-background-color);
+        margin-bottom: 16px;
+}
 .footer-soc-listm {
     margin-bottom: 32px;
     display: flex;
@@ -415,7 +425,7 @@ body.body-hidden{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     padding-left: 16px;
-    margin-right: 24px;
+    /* margin-right: 24px; */
     color: rgba(255, 255, 255, 0.3);
 }
 

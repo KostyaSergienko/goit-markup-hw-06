@@ -197,7 +197,7 @@ body{
 /* оформлення мейна секція три */
 /* .work {
 } */
-.work-title {
+/* .work-title {
     text-align: center;
     padding-bottom: 120x;
     margin-bottom: 72px;
@@ -208,7 +208,7 @@ body{
 }
 .work-item {
     margin-right: 24px;
- }
+ } */
 /* .work-images {
 } 
 /* .persone-item {
@@ -410,20 +410,20 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-be
     background-color: #31D0AA;
 }
 
-/* .footer-subscribe {
+.footer-subscribe {
     margin-left: 80px;
-} */
+}
 
 /* .subscribe-modal {}
 
 .subscribe-label {} */
 
-/* .subscribe-wrap {
+.subscribe-wrap {
     display: flex;
     justify-content: center;
     align-items: center;
 
-} */
+}
 
 .subscribe-input {
     font-weight: 400;

@@ -12,6 +12,13 @@ gap: 76px;
     flex: 1;
     justify-content: flex-end;
     gap: 40px;}
+.header-mailto,.header-telefone {
+            
+            font-size: 16px;
+            line-height: 1.5;
+           
+            
+        }
 /* ==========================SECTIO TWO================ */
         .direction-list {
             gap: 24px;
@@ -37,6 +44,37 @@ gap: 76px;
                     padding: 24px 100px;
                     margin-bottom: 8px;
                 }
+                .direction-direction{
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 1.2;
+                    text-align:left;
+                    margin-bottom: 8px;
+                }
+                                .direction-text{
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 1.5;
+                                }
+/* ===========================SECTION THRE============= */
+.work-title {
+    text-align: center;
+    padding-bottom: 120x;
+    margin-bottom: 72px;
+}
+
+.work-list {
+    display: flex;
+
+}
+
+.work-item {
+    margin-right: 24px;
+}
+.work{
+    display: block;
+    margin-bottom: 120px;
+}
 /* ===========================SECTION FIVE============= */
   .customers {
       padding-top: 96px;
@@ -54,5 +92,13 @@ gap: 76px;
 
   .footer-subscribe{
     margin-left: 80px;
+  }
+  /* ===========================FOOETR============= */
+  .footer-logo{
+    margin-left:0;
+    margin-right: 120px;
+  }
+  .footer-subscribe {
+      margin-left: 0;
   }
 }
